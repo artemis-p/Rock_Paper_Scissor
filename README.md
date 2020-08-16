@@ -1,15 +1,26 @@
 # Rock_Paper_Scissor
 
-A simple RPS game where the player plays against the computer.
+A RPSLS game where the player with "simple" rules! The user plays against the computer.
 
 
 ## Basic Rules
-- Rock beats Scissors
-- Scissors beats Paper
-- Paper beats Rock
+- Scissors cuts Paper
+- Paper covers Rock
+- Rock crushes lizard
+- Lizard poisons Spock
+- Spock smashes scissors
+- Scissors decapitates lizard
+- Lizard eats paper
+- Paper disproves Spock
+- Spock vaporizes rock
+- Rock crushes scissors
+
 
 ## User stories
-- As a user I would like to be given the choice of Rock, Paper or Scissors
+- As a user I would like to be able to choose Rock, Paper, Scissors, Lizard or Spock to play in my turn
 - 
+
 ## Tech stack
 - JavaScript
+- HTML
+- CSS
