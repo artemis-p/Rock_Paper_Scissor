@@ -14,6 +14,7 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  font-family: Helvetica;
 }
 
 #title {
@@ -23,13 +24,13 @@ html {
 
 .choices {
   text-align: center;
-  margin-top: 300px;
+  margin-top: 370px;
 }
 
 #rock, #paper, #scissors, #lizard, #spock {
   height: 140px;
   width: 140px;
-  background-color: rgb(182, 204, 102);
+  background-color: #b6cc66;
   border-radius: 50%;
   display: inline-block;
   padding: 20px 20px 20px 20px;
@@ -41,4 +42,31 @@ html {
   border: dotted;
   margin: 20px 20px 20px 20px;
   font-size: 30px;
+}
+
+.user, .computer {
+  color: white;
+  padding: 100px 100px 100px 100px;
+}
+
+.user {
+  float: left;
+}
+
+.computer {
+  float: right;
+}
+
+#score-0, #score-1 {
+  background-color: #b6cc66;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  text-align: center;
+  font-size: 35px;
+}
+
+#name-0, #name-1 {
+  font-size: 50px;
 }
