@@ -70,3 +70,10 @@ html {
 #name-0, #name-1 {
   font-size: 50px;
 }
+
+.btn-new {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  margin: 0px 0px 0px 15px;
+}
