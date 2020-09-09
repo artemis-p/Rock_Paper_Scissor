@@ -1,6 +1,6 @@
 # Rock_Paper_Scissor
 
-A RPSLS game where the player with "simple" rules! The user plays against the computer.
+If you've ever watched the "The Big Bang Theory" series then you are familiar with the Rock, Paper, Scissors, Lizard, Spock game and its "simple" rules! For this project, the user plays against the computer. I built this project as I am a huge fun of the series, but also, because I wanted to make good use of my newly acquired knowledge in semantic HTML syntax, CSS and JS functions.
 
 
 ## Basic Rules
@@ -18,9 +18,14 @@ A RPSLS game where the player with "simple" rules! The user plays against the co
 
 ## User stories
 - As a user I would like to be able to choose Rock, Paper, Scissors, Lizard or Spock to play in my turn
-- 
+
 
 ## Tech stack
 - JavaScript
 - HTML
 - CSS
+
+## Progress
+- [x] Add HTML
+- [x] Add CSS
+- [ ] Add JS functions 
