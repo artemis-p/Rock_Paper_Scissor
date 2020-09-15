@@ -18,7 +18,12 @@ html {
 }
 
 #title {
-  color: white;
+  color: rgb(101, 211, 37);
+  text-align: center;
+}
+
+#result {
+  color: rgb(206, 41, 91);
   text-align: center;
 }
 
@@ -30,22 +35,15 @@ html {
 #rock, #paper, #scissors, #lizard, #spock {
   height: 140px;
   width: 140px;
-  background-color: #b6cc66;
+  background-color: #a7db53;
   border-radius: 50%;
   display: inline-block;
   padding: 20px 20px 20px 20px;
   margin: 20px 20px 20px 20px;
 }
 
-.title-1 {
-  color: white;
-  border: dotted;
-  margin: 20px 20px 20px 20px;
-  font-size: 30px;
-}
-
 .user, .computer {
-  color: white;
+  color: rgb(29, 214, 199);
   padding: 100px 100px 100px 100px;
 }
 
@@ -69,11 +67,4 @@ html {
 
 #name-0, #name-1 {
   font-size: 50px;
-}
-
-.btn-new {
-  text-align: center;
-  font-size: 25px;
-  padding: 10px;
-  margin: 0px 0px 0px 15px;
 }
