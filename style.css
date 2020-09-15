@@ -30,6 +30,7 @@ html {
 .choices {
   text-align: center;
   margin-top: 370px;
+  padding: 55px;
 }
 
 #rock, #paper, #scissors, #lizard, #spock {
