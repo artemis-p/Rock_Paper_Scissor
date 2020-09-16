@@ -1,82 +1,85 @@
 let userChosen;
-let result = getResults();
+let computerChosen;
+var result = getResults();
 const displayResult = document.getElementById('result')
 const choices = document.querySelectorAll('.choices');
-const randomNumber = Math.floor(Math.random() * 5);
-const userChoice = document.getElementById('.name-0')
-
+const userChoice = document.getElementById('name-0');
+const computerChoice = document.getElementById('name-1');
 
 //get user's choice
-choices.forEach(choice => {
-    choice.addEventListener('click', e => {
-        getUserChoice = e.target.id
-
-    })
-})
-
+choices.forEach(choice => 
+    choice.addEventListener('click', (e) => {
+        console.log(e)
+        userChosen = e.target.id
+        console.log(userChosen)
+        getComputerChoice()
+        getResults()
+        userChoice.innerHTML = userChosen
+        computerChoice.innerHTML = computerChosen
+        displayResult.innerHTML = result
+    }))
 
 //get computer's choice
 function getComputerChoice() {
-    switch (randomNumber){
-        case 0:
-            return("rock");
-        case 1:
-            return("paper");
-        case 2:
-            return("scissors");
-        case 3:
-            return("lizard");
-        case 4:
-            return("spock");
-    }
+   const randomNumber = Math.round(Math.random() * (5));
+   if (randomNumber === 1) {
+       return computerChosen = 'rock'
+   } else if (randomNumber === 2) {
+        return computerChosen = 'paper'
+   } else if (randomNumber === 3) {
+        return computerChosen = 'scissors'
+   } else if (randomNumber === 4) {
+        return computerChosen = 'lizard'
+   } else if (randomNumber === 5) {
+        return computerChosen = 'spock'
+   }
 }
-console.log(getComputerChoice());
 
 //get Results
 function getResults() {
-    if (getComputerChoice === userChosen) {
+    if (computerChosen === userChosen) {
         return result = "It's a tie!"
-    } else if (getComputerChoice === "scissors" && userChosen === "paper") {
+    } else if (computerChosen === "scissors" && userChosen === "paper") {
         return result = "You lost!"
-    } else if (getComputerChoice === "scissors" && userChosen === "rock") {
+    } else if (computerChosen === "scissors" && userChosen === "rock") {
         return result = "You win!"
-    } else if (getComputerChoice === "scissors" && userChosen === "lizard") {
+    } else if (computerChosen === "scissors" && userChosen === "lizard") {
         return result = "You lost!"
-    } else if (getComputerChoice === "scissors" && userChosen === "spock") {
+    } else if (computerChosen === "scissors" && userChosen === "spock") {
         return result = "You win!"
-    } else if (getComputerChoice === "rock" && userChosen === "paper") {
+    } else if (computerChosen === "rock" && userChosen === "paper") {
         return result = "You win!"
-    } else if (getComputerChoice === "rock" && userChosen === "scissors") {
+    } else if (computerChosen === "rock" && userChosen === "scissors") {
         return result = "You lost!"
-    } else if (getComputerChoice === "rock" && userChosen === "lizard") {
+    } else if (computerChosen === "rock" && userChosen === "lizard") {
         return result = "You lost!"
-    } else if (getComputerChoice === "rock" && userChosen === "spock") {
+    } else if (computerChosen === "rock" && userChosen === "spock") {
         return result = "You win!"
-    } else if (getComputerChoice === "paper" && userChosen === "rock") {
+    } else if (computerChosen === "paper" && userChosen === "rock") {
         return result = "You lost!"
-    } else if (getComputerChoice === "paper" && userChosen === "scissors") {
+    } else if (computerChosen === "paper" && userChosen === "scissors") {
         return result = "You win!"
-    } else if (getComputerChoice === "paper" && userChosen === "lizard") {
+    } else if (computerChosen === "paper" && userChosen === "lizard") {
         return result = "You win!"
-    } else if (getComputerChoice === "paper" && userChosen === "spock") {
+    } else if (computerChosen === "paper" && userChosen === "spock") {
         return result = "You lost!"
-    } else if (getComputerChoice === "paper" && userChosen === "spock") {
+    } else if (computerChosen === "paper" && userChosen === "spock") {
         return result = "You lost!"
-    } else if (getComputerChoice === "lizard" && userChosen === "rock") {
+    } else if (computerChosen === "lizard" && userChosen === "rock") {
         return result = "You win!"
-    } else if (getComputerChoice === "lizard" && userChosen === "paper") {
+    } else if (computerChosen === "lizard" && userChosen === "paper") {
         return result = "You lost!"
-    } else if (getComputerChoice === "lizard" && userChosen === "scissors") {
+    } else if (computerChosen === "lizard" && userChosen === "scissors") {
         return result = "You win!"
-    } else if (getComputerChoice === "lizard" && userChosen === "spock") {
+    } else if (computerChosen === "lizard" && userChosen === "spock") {
         return result = "You lost!"
-    } else if (getComputerChoice === "spock" && userChosen === "rock") {
+    } else if (computerChosen === "spock" && userChosen === "rock") {
         return result = "You lost!"
-    } else if (getComputerChoice === "spock" && userChosen === "paper") {
+    } else if (computerChosen === "spock" && userChosen === "paper") {
         return result = "You win!"
-    } else if (getComputerChoice === "spock" && userChosen === "scissors") {
+    } else if (computerChosen === "spock" && userChosen === "scissors") {
         return result = "You lost!"
-    } else if (getComputerChoice === "spock" && userChosen === "lizard") {
+    } else if (computerChosen === "spock" && userChosen === "lizard") {
         return result = "You win!"
     }
 }
