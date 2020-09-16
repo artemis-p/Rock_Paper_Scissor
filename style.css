@@ -33,8 +33,6 @@ html {
   padding: 55px;
 }
 
-
-
 #rock, #paper, #scissors, #lizard, #spock {
   height: 140px;
   width: 140px;
@@ -43,6 +41,31 @@ html {
   display: inline-block;
   padding: 20px 20px 20px 20px;
   margin: 20px 20px 20px 20px;
+}
+
+#rock {
+  background-image: url('images/rock.png');
+  background-repeat: no-repeat;
+}
+
+#paper {
+  background-image: url('images/paper.png');
+  background-repeat: no-repeat;
+}
+
+#scissors {
+  background-image: url('images/barber-scissors.png');
+  background-repeat: no-repeat;
+}
+
+#lizard {
+  background-image: url('images/salamander.png');
+  background-repeat: no-repeat;
+}
+
+#spock {
+  background-image: url('images/star-trek-gesture.png');
+  background-repeat: no-repeat;
 }
 
 .user, .computer {
