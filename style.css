@@ -23,7 +23,7 @@ html {
 }
 
 #result {
-  color: rgb(206, 41, 91);
+  color: rgb(221, 118, 49);
   text-align: center;
 }
 
@@ -44,8 +44,9 @@ html {
 }
 
 .user, .computer {
-  color: rgb(29, 214, 199);
+  color: rgb(169, 84, 202);
   padding: 100px 100px 100px 100px;
+  
 }
 
 .user {
