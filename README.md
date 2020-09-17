@@ -18,6 +18,7 @@ If you've ever watched the "The Big Bang Theory" series then you are familiar wi
 
 ## User stories
 - As a user I would like to be able to choose Rock, Paper, Scissors, Lizard or Spock to play in my turn
+- As a user I would like to see if I won or lost the game
 
 
 ## Tech stack
@@ -28,4 +29,9 @@ If you've ever watched the "The Big Bang Theory" series then you are familiar wi
 ## Progress
 - [x] Add HTML
 - [x] Add CSS
-- [ ] Add JS functions 
+- [x] Add JS functions 
+
+## Next steps
+- [ ] Add TDD
+- [ ] Add score for each player
+- [ ] Add a second player
