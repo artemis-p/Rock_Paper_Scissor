@@ -29,8 +29,9 @@ html {
 
 .choices {
   text-align: center;
-  margin-top: 370px;
+  margin-top: 500px;
   padding: 55px;
+  outline: none;
 }
 
 #rock, #paper, #scissors, #lizard, #spock {
@@ -39,8 +40,8 @@ html {
   background-color: #a7db53;
   border-radius: 50%;
   display: inline-block;
-  padding: 20px 20px 20px 20px;
-  margin: 20px 20px 20px 20px;
+  padding: 30px;
+  margin: 20px;
 }
 
 #rock {
@@ -74,8 +75,8 @@ html {
 }
 
 .user, .computer {
-  color: rgb(169, 84, 202);
-  padding: 100px 100px 100px 100px;
+  color: rgb(119, 84, 202);
+  padding: 250px 100px 100px 100px;
   font-size: 50px;
 }
 

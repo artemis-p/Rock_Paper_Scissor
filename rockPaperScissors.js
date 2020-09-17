@@ -83,15 +83,3 @@ function getResults() {
         return result = "You win!"
     }
 }
-
-
-
-
-// Play the game
-
-//the user clicks on a button (r,p,s,l,s) - userChosen
-//save this in a var - userChosen
-//the computer plays a random choice - getComputerChoice - yes
-//save this in a var - computerChosen
-// compare the two var and decide the winner - getResults getComputerChoice vs userChosen - yes
-// print result you win/ you lose - displayResult
