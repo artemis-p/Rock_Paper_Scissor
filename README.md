@@ -34,6 +34,7 @@ You can find the deployed app here: https://artemis-p.github.io/Rock_Paper_Sciss
 - [x] Add JS functions 
 
 ## Next steps
+- [ ] Add game rules
 - [ ] Adjust CSS for all screen sizes
 - [ ] Add TDD
 - [ ] Add score for each player
