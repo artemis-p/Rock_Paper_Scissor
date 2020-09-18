@@ -22,15 +22,15 @@ choices.forEach(choice =>
 //get computer's choice
 function getComputerChoice() {
    const randomNumber = Math.round(Math.random() * (5));
-   if (randomNumber === 1) {
+   if (randomNumber === 0) {
        return computerChosen = 'rock'
-   } else if (randomNumber === 2) {
+   } else if (randomNumber === 1) {
         return computerChosen = 'paper'
-   } else if (randomNumber === 3) {
+   } else if (randomNumber === 2) {
         return computerChosen = 'scissors'
-   } else if (randomNumber === 4) {
+   } else if (randomNumber === 3) {
         return computerChosen = 'lizard'
-   } else if (randomNumber === 5) {
+   } else if (randomNumber === 4) {
         return computerChosen = 'spock'
    }
 }
