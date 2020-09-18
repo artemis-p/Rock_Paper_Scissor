@@ -21,7 +21,8 @@ choices.forEach(choice =>
 
 //get computer's choice
 function getComputerChoice() {
-   const randomNumber = Math.round(Math.random() * (5));
+   const randomNumber = Math.floor(Math.random() * (5));
+   console.log(randomNumber)
    if (randomNumber === 0) {
        return computerChosen = 'rock'
    } else if (randomNumber === 1) {
@@ -34,6 +35,7 @@ function getComputerChoice() {
         return computerChosen = 'spock'
    }
 }
+
 
 //get Results
 function getResults() {
