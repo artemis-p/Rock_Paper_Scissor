@@ -95,3 +95,21 @@ html {
   color: rgb(207, 102, 102);
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  html {
+    height: 1258px;
+    width: 600px;
+  }
+  #result {
+    font-size: 1.25rem;
+  }
+  .user, .computer {
+    /* px conversion => 0.75 * 50 = 35px (50px => font-size for user/computer class) */
+    font-size: 0.75rem;
+    text-align:center;
+    padding: 0px;
+  }
+
+
+}
