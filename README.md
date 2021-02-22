@@ -2,7 +2,7 @@
 
 If you've ever watched the "The Big Bang Theory" series then you are familiar with the Rock, Paper, Scissors, Lizard, Spock game and its "simple" rules! For this project, the user plays against the computer. I built this project as I am a huge fan of the series, but also, because I wanted to make good use of my newly acquired skills in semantic HTML syntax, CSS and JS functions.
 
-You can find the deployed app here: https://artemis-p.github.io/Rock_Paper_Scissor/
+You can find the deployed app [here](https://artemis-p.github.io/Rock_Paper_Scissor/):
 
 
 ## Basic Rules
